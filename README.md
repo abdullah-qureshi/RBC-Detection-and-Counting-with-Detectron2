@@ -1,6 +1,10 @@
 # RBC-Detection-and-Counting-with-Detectron2
 RBC counting using Faster-RCNN model pre-trained on COCO dataset with Detectron2. 
 
+<div align="center">
+  <img src="https://github.com/abdullah-qureshi/RBC-Detection-and-Counting-with-Detectron2/blob/main/image-111.jpg"/>
+</div>
+
 ## Installation
 
 See [installation instructions](https://detectron2.readthedocs.io/tutorials/install.html).
