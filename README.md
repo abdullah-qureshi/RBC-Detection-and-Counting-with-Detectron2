@@ -9,7 +9,7 @@ RBC counting using Faster-RCNN model pre-trained on COCO dataset with Detectron2
 
 See [installation instructions](https://detectron2.readthedocs.io/tutorials/install.html).
 
-## install dependencies
+## Install dependencies
 !pip install -U torch==1.5 torchvision==0.6 -f https://download.pytorch.org/whl/cu101/torch_stable.html
 
 !pip install cython pyyaml==5.1
