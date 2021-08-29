@@ -1,7 +1,7 @@
 from detectron2.data.datasets import register_coco_instances
-register_coco_instances("my_dataset_train", {}, "/content/train/_annotations.coco.json", "/content/train")
-register_coco_instances("my_dataset_val", {}, "/content/valid/_annotations.coco.json", "/content/valid")
-register_coco_instances("my_dataset_test", {}, "/content/test/_annotations.coco.json", "/content/test")
+register_coco_instances("my_dataset_train", {}, "/train/_annotations.coco.json", "/train")
+register_coco_instances("my_dataset_val", {}, "/valid/_annotations.coco.json", "/valid")
+register_coco_instances("my_dataset_test", {}, "/test/_annotations.coco.json", "/test")
 
 #visualize training data
 my_dataset_train_metadata = MetadataCatalog.get("my_dataset_train")
